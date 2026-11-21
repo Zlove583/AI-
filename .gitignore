@@ -1,0 +1,41 @@
+﻿# Dependencies and build outputs
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+target/
+**/target/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.local
+uploads/
+**/uploads/
+
+# IDE and OS files
+.idea/
+**/.idea/
+.vscode/
+**/.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs and crash dumps
+*.log
+hs_err_pid*
+replay_pid*
+
+# Local analysis artifacts and media
+.video_frames*/
+*.mp4
+*.mov
+*.avi
+
+# Non-code installers and unrelated local materials
+资料/
+images/
+相关依赖/
+.trae/
+.screenshots/
